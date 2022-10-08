@@ -16,8 +16,8 @@ float_logo: false # true, false (default)
 # blog cover
 cover: "assets/images/background_image.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Nikola Elez'
+author: 'Nikola Elez'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
