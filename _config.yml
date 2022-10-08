@@ -7,7 +7,6 @@ gems:
 title: "Nikola Elez"
 description: > # this means to ignore newlines until "email:"
    Attorney at law
-
 email: advokat@elez.legal
 #blog logo
 logo: "nikola elez blue.jpg"
@@ -16,8 +15,8 @@ float_logo: false # true, false (default)
 # blog cover
 cover: "assets/images/background_image.jpg"
 
-name: 'Nikola Elez'
-author: 'Nikola Elez'
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
