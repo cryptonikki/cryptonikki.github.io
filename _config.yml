@@ -9,14 +9,14 @@ description: > # this means to ignore newlines until "email:"
    Attorney at law
 email: advokat@elez.legal
 #blog logo
-logo: "/assets/images/df_logo.jpg"
-float_logo: true # true, false (default)
+logo: "nikola elez blue.jpg"
+float_logo: false # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "assets/images/background_image.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Nikola Elez'
+author: 'Nikola Elez'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
