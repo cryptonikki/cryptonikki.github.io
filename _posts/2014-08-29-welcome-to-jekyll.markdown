@@ -9,7 +9,6 @@ image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 Court representation considering compensation for damages
 Filing Law suits and other legal actions, court session attendence with or without clients
 Filing complaints, revisions, constituional complains
-Sto ovo ne radi
 
 <footer class="site-footer">
  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
