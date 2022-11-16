@@ -7,6 +7,6 @@ tags: featured
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
-Court representation considering compensation for damages
-Filing Law suits and other legal actions, court session attendence with or without clients
-Filing complaints, revisions, constituional complains
+Court representation considering compensation for damages.
+Filing Law suits and other legal actions, court session attendence with or without clients.
+Filing complaints, revisions, constituional complains.
