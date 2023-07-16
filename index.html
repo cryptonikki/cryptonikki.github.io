@@ -56,18 +56,18 @@ layout: default
 
 
     <div class="cf frame">
-      {% for post in paginator.posts %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+      {% for project in site.data.projects %}
+        <article class="work" itemscope itemtype="http://schema.org/CreativeWork" role="article">
+          <div class="work-item">
+            <header class="work-header">
+              <h2 class="work-title" itemprop="name">{{ project.title }}</h2>
             </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <section class="work-description" itemprop="description">
+              <p>{{ project.description }}</p>
             </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+            <div class="work-meta">
+              <time datetime="{{ project.date }}">{{ project.date }}</time>
+              <span class="work-category">{{ project.category }}</span>
             </div>
           </div>
         </article>
