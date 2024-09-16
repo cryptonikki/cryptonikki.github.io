@@ -9,15 +9,15 @@ navigation_order: 1
 
 <div class="editable">
 	<p>
-		Welcome to the official website of Nikola Elez, a dedicated lawyer with extensive experience in various legal fields. With a commitment to providing exceptional legal services, I specialize in:
+		Welcome to the official website of Nikola Elez, a dedicated lawyer with extensive experience in various legal fields. I am committed to providing exceptional legal services and specialize in:
 	</p>
 	<ul>
 		<li><strong>Compensation for Damages:</strong> Helping clients seek compensation for personal injuries and property damages.</li>
-		<li><strong>Banking Law:</strong> Offering legal assistance on matters related to banking regulations and financial transactions.</li>
-		<li><strong>Debt Collection:</strong> Assisting clients in recovering outstanding debts efficiently and effectively.</li>
+		<li><strong>Banking Law:</strong> Providing legal assistance with banking regulations and financial transactions.</li>
+		<li><strong>Debt Collection:</strong> Assisting in recovering outstanding debts efficiently and effectively.</li>
 		<li><strong>Compulsory Acquisition of Land and Compensation:</strong> Navigating legal processes for land acquisition and ensuring fair compensation.</li>
 		<li><strong>Contracts:</strong> Drafting, reviewing, and negotiating contracts to protect your interests.</li>
-		<li><strong>Labor Law:</strong> Providing guidance on employment issues, workplace disputes, and labor rights.</li>
+		<li><strong>Labor Law:</strong> Offering guidance on employment issues, workplace disputes, and labor rights.</li>
 		<li><strong>Employment of Foreigners:</strong> Advising on legal requirements and processes for employing foreign nationals.</li>
 	</ul>
 	<p>
@@ -25,25 +25,17 @@ navigation_order: 1
 	</p>
 </div>
 
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
+<p class="editor-link"><a href="{{ '/contact' | absolute_url }}" class="btn"><strong>&#9998;</strong> Contact Nikola Elez</a></p>
 
-<ul class="staff-list">
-	{% for member in site.staff_members %}
-		<li class="staff">
-			<div class="staff-details">
-				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
-				</div>
-				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ member.phone_extension }}</li>
-				</ul>
-			</div>
-
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
+<div class="service-list">
+	<h3>Legal Services Offered</h3>
+	<ul>
+		<li><strong>Compensation for Damages:</strong> Navigating the labyrinth of personal injury and property damage claims.</li>
+		<li><strong>Banking Law:</strong> Delving into the intricacies of financial regulations and transactions.</li>
+		<li><strong>Debt Collection:</strong> Orchestrating effective debt recovery strategies.</li>
+		<li><strong>Compulsory Acquisition of Land:</strong> Guiding you through the legal crucible of land acquisition and compensation.</li>
+		<li><strong>Contracts:</strong> Crafting and reviewing agreements that intertwine with your business goals.</li>
+		<li><strong>Labor Law:</strong> Advising on workplace disputes and labor rights in a kaleidoscopic legal environment.</li>
+		<li><strong>Employment of Foreigners:</strong> Offering a captivating mosaic of solutions for employing foreign nationals.</li>
+	</ul>
+</div>
