@@ -1,15 +1,14 @@
-# Justice
+# Nikola Elez Law Firm
 
-Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
-Increase the web presence of a law firm or business with this configurable theme.
+Professional law firm themed business template for Jekyll. Increase the web presence of your legal practice with this customizable theme.
 
-![Justice template screenshot](images/_screenshot.png)
+![Nikola Elez Law Firm template screenshot](images/_screenshot.png)
 
-Justice was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
+This template was made by [Nikola Elez](https://elez.legal), providing expertise in various legal fields including compensation for damages, banking law, debt collection, compulsory acquisition of land and compensation, contracts, labor law, and employment of foreigners.
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+Find more information about our services and contact us directly at [Nikola Elez](https://elez.legal).
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/justice-jekyll-template)
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/cryptonikki/cryptonikki.github.io)
 
 ## Features
 
@@ -21,7 +20,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 * Disqus comments for posts
 * Staff and author system
 * Configurable footer
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+* Optimized for editing in [CloudCannon](https://cloudcannon.com/)
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -34,7 +33,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 ## Develop
 
-Justice was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+This template was built with [Jekyll](https://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
 
 Install the dependencies with [Bundler](https://bundler.io/):
 
@@ -50,11 +49,11 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Justice is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+This template is optimized for adding, updating, and removing pages, staff, posts, company details, and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
 ### Posts
 
-* Add, update or remove a post in the *Posts* collection.
+* Add, update, or remove a post in the *Posts* collection.
 * The **Staff Author** field links to members in the **Staff** collection.
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
 
