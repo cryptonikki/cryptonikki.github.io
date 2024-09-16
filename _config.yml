@@ -2,7 +2,7 @@
 # Site
 
 title: Advokat Nikola Elez
-url: "https://orchid-heron.cloudvent.net"
+url: "url: "https://elez.legal"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,17 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+description: Official website of Advokat Nikola Elez, providing legal services.
 author:
-  name:
-  email:
+  name: Nikola Elez
+  email: advokat@elez.legal
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Nikola Elez
   links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+    - https://github.com/cryptonikki
+    - https://rs.linkedin.com/in/nikola-elez-398bb5217
+    - https://x.com/Crypto_Niki
 
 # -----
 # Build
