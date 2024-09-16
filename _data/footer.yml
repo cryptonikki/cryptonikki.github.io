@@ -13,18 +13,14 @@
 - title: Social
   links:
     - name: Facebook
-      link: http://facebook.com/cloudcannon/
+      link: https://sr-rs.facebook.com/nikola.elez.16
       social_icon: Facebook
       new_window: true
-    - name: Twitter
-      link: http://twitter.com/cloudcannon
-      social_icon: Twitter
-      new_window: true
-    - name: Instagram
-      link: http://instagram.com/
-      social_icon: Instagram
+    - name: X
+      link: https://x.com/Crypto_Niki
+      social_icon: X
       new_window: true
     - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon/
+      link: https://www.linkedin.com/in/nikola-elez-398bb5217/
       social_icon: LinkedIn
       new_window: true
