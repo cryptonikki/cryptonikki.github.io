@@ -6,13 +6,19 @@ large_header: false
 show_in_navigation: true
 navigation_order: 3
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
+  latitude: 45.25041606923447
+  longitude: 19.842960297111723
   zoom: 13
 ---
 
 <p class="editable">
-	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+    Feel free to visit us in person, give us a call, or send us a message using the contact details below. We will get back to you as soon as possible. Your first meeting is free of charge, and there are no obligations.
+</p>
+
+<p class="editable">
+    <strong>Address:</strong> Vase Stajica 28, Novi Sad, Serbia<br>
+    <strong>Phone:</strong> +381 64 928 3855<br>
+    <strong>Email:</strong> <a href="mailto:advokat@elez.legal">advokat@elez.legal</a>
 </p>
 
 <div class="columns">
@@ -27,6 +33,7 @@ map:
 
 		<label>Postal Address</label>
 		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
+
 		<label>Address</label>
 		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
 	</div>
@@ -34,13 +41,13 @@ map:
 	<div class="column">
 		<form method="post" action="/contact-success/">
 			<label for="email_address">Email Address</label>
-			<input id="email_address"type="text" name="email">
+			<input id="email_address" type="email" name="email" required>
 
 			<label for="name">Name</label>
-			<input id="name" type="text" name="name">
+			<input id="name" type="text" name="name" required>
 
 			<label for="message">Message</label>
-			<textarea id="message" name="message"></textarea>
+			<textarea id="message" name="message" required></textarea>
 
 			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
 			<input type="text" name="_gotcha" style="display: none;">
@@ -49,6 +56,7 @@ map:
 		</form>
 	</div>
 </div>
+
 
 
 {% if site.google_maps_javascript_api_key and page.call_to_action == 'Map' %}
