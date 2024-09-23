@@ -1,14 +1,19 @@
 <div class="staff-details">
 	<div class="staff-image">
-		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for {{ include.member.name }}" width="120" height="120">
+		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for Nikola Elez" width="120" height="120">
 	</div>
 	<ul class="staff-info">
-		<li>{{ include.member.name }}</li>
-		<li><small>{{ include.member.credentials }}</small></li>
-		<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ include.member.phone_extension }}</p></li>
+		<li>Nikola Elez</li>
+		<li><small>Expert Legal Representation</small></li>
+		<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
 	</ul>
 </div>
 
 <div class="staff-bio">
-	<p>{{ include.member.content | markdownify }}</p>
+	<p>
+		With years of experience, Nikola Elez offers expert representation in various areas of law, including compensation for damages, banking law, debt collection, compulsory acquisition of land, contracts, and employment of foreigners.
+	</p>
+	<p>
+		With over 5 years of combined experience, Nikola Elez is dedicated to delivering high-quality legal services tailored to your needs. Whether you need assistance with compensation claims, contract disputes, or employment issues, Nikola is here to help you achieve the best possible outcome.
+	</p>
 </div>
