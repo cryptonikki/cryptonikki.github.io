@@ -1,22 +1,28 @@
 // CloudCannon Editor Links (https://docs.cloudcannon.com/editing/editor-links/)
 
+// Define color variables for better maintainability
+$editor-bg: #f7e064;
+$editor-bg-hover: #f4d525;
+$editor-text-color: #333;
+
+// Style for CloudCannon Editor Links
 .editor-link {
-	display: none;
-	margin-top: 0;
+    display: none; // Initially hide the editor link
+    margin-top: 0;
 
-	.btn {
-		background-color: #f7e064;
-		color: #333;
-		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    .btn {
+        background-color: $editor-bg;
+        color: $editor-text-color;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
 
-		&:hover {
-			background-color: #f4d525;
-			color: #333;
-		}
-	}
-
+        &:hover {
+            background-color: $editor-bg-hover;
+            color: $editor-text-color;
+        }
+    }
 }
 
+// Show editor link when the CMS editor is active
 .cms-editor-active .editor-link {
-	display: block;
+    display: block;
 }
