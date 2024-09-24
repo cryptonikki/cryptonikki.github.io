@@ -19,6 +19,9 @@ body {
     font-family: 'Vollkorn', Georgia, serif;
     color: $primary-color;
     text-rendering: geometricPrecision;
+    background-image: url('{{ site.background_image_path }}'); /* Background image */
+    background-size: cover;  /* Cover the entire background */
+    background-position: center;  /* Center the image */
 }
 
 label,
