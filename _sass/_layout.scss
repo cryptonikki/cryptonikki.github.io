@@ -103,6 +103,14 @@ section {
     border-radius: 2px;
 }
 
+// Responsive Image Class
+.responsive {
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
 // Main content styles
 .main {
     @extend .light-section;
