@@ -19,7 +19,7 @@ body {
     font-family: 'Vollkorn', Georgia, serif;
     color: $primary-color;
     text-rendering: geometricPrecision;
-    background-image: url('{{ site.baseurl }}{{ page.background_image_path }}'); /* Make sure this line is present */
+    background-image: url('{{ site.baseurl }}/images/background.jpg'); /* Correct path to the image */
     background-size: cover;  /* Cover the entire background */
     background-position: center;  /* Center the image */
     background-repeat: no-repeat; /* Prevent the background from repeating */
