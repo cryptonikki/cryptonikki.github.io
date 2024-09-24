@@ -19,10 +19,11 @@ body {
     font-family: 'Vollkorn', Georgia, serif;
     color: $primary-color;
     text-rendering: geometricPrecision;
-    /* Remove the background-image line from here */
-    /* background-image: url('{{ site.background_image_path }}'); */
-    background-size: cover;  /* Keep these */
+    background-image: url('{{ site.baseurl }}{{ page.background_image_path }}'); /* Make sure this line is present */
+    background-size: cover;  /* Cover the entire background */
     background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Makes the background image stay fixed when scrolling */
 }
 
 label,
