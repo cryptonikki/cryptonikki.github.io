@@ -3,20 +3,7 @@ title: Nikola Elez - Lawyer
 call_to_action: Contact
 background_image_path: /assets/images/background.jpg
 large_header: true
-testimonials:
-  - message: "Nikola Elez provides exceptional legal services and truly cares about his clients. Highly recommend!"
-    image: "https://placekitten.com/g/60/60?a=.png"
-    name: Jane Doe
-  - message: "As a client of Nikola Elez, I can attest to his professionalism and deep understanding of the law."
-    image: "https://www.fillmurray.com/60/60?a=.png"
-    name: John Smith
-  - message: "Nikola Elez has been a tremendous help with my legal matters. His expertise is unmatched."
-    image: "https://placebear.com/60/60?a=.png"
-    name: Emily Johnson
-_options:
-  image:
-    width: 60
-    height: 60
+
 ---
 
 <div class="editable">
@@ -25,11 +12,4 @@ _options:
 	<p>With over 5 years of combined experience, Nikola Elez and his team are dedicated to delivering high-quality legal services tailored to your needs. Whether you need assistance with compensation claims, contract disputes, or employment issues, we are here to help you achieve the best possible outcome.</p>
 </div>
 
-<div class="testimonials">
-	{% for testimonial in page.testimonials %}
-		<blockquote class="testimonial">
-			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
-		</blockquote>
-	{% endfor %}
-</div>
+
