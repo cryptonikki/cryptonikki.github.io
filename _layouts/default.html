@@ -35,6 +35,7 @@
             <h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
             <nav>
                 <ul>
+                    <li><a href="{{ site.baseurl }}/">Home</a></li> <!-- Added Home link -->
                     {% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
                     {% for nav_page in nav_pages %}
                         {% if previous_page.path != nav_page.path %}
