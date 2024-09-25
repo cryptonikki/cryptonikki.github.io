@@ -104,9 +104,8 @@ section {
 }
 
 .about-photo {
-    width: 33.33%; /* Makes the image approximately 1/3 of the container width */
-    max-width: 200px; /* Optional: Set a maximum width for the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; /* Fixed width for the image */
+    height: 150px; /* Fixed height to match the width */
     border-radius: 50%; /* Makes the image round */
     border: 5px solid white; /* White circle around the image */
     display: block; /* Makes the image a block element */
