@@ -78,21 +78,35 @@
 
             <div class="footer-columns">
                 {% for column in site.data.footer %}
-                    <ul class="footer-links">
-                        <li>
-                            <h2>{{ column.title }}</h2>
-                        </li>
-                        {% for link in column.links %}
-                            <li>
-                                <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-                                    {% if link.social_icon %}
-                                        {% include social-icon.html icon=link.social_icon %}
-                                    {% endif %}
-                                    {{ link.name }}
-                                </a>
-                            </li>
-                        {% endfor %}
-                    </ul>
+                <ul class="footer-links">
+                    <li>
+                        <h2>Social</h2>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://sr-rs.facebook.com/nikola.elez.16" class="facebook-icon">
+                            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"/>
+                            </svg>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://x.com/Crypto_Niki" class="x-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 462.799" width="24" height="24" fill="#000000">
+                                <path fill-rule="nonzero" d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"/>
+                            </svg>
+                            X.com
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/nikola-elez-398bb5217/" class="linkedin-icon">
+                            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
                 {% endfor %}
 
                 <ul class="footer-links">
